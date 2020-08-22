@@ -201,6 +201,7 @@ public class Notification extends CordovaPlugin {
                 });
 
                 changeTextDirection(dlg);
+     dlg.getButton(dlg.BUTTON_POSITIVE).setTextColor(Color.parseColor("#f34235")); // Could not get to work          
             };
         };
         this.cordova.getActivity().runOnUiThread(runnable);
