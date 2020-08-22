@@ -183,6 +183,7 @@ public class Notification extends CordovaPlugin {
                 dlg.setTitle(title);
                 dlg.setCancelable(true);
 //   dlg.getButton(AlertDialog.BUTTON_POSITIVE).setTextSize(TypedValue.COMPLEX_UNIT_PX, 44);
+     dlg.getButton(dlg.BUTTON_POSITIVE).setTextColor(0xFF000000); //oxaarrggbb
                 dlg.setPositiveButton(buttonLabel,
                         new AlertDialog.OnClickListener() {
                             public void onClick(DialogInterface dialog, int which) {
