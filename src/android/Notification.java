@@ -203,8 +203,8 @@ public class Notification extends CordovaPlugin {
                 });
 
 // New Start
-              dlg.setOnShowListener(new DialogInterface.OnShowListener() {
-                     @Override
+              dlg.setOnShowListener(new AlertDialog.OnShowListener() {
+ //                  @Override
                      public void onShow(DialogInterface dialog) {
                             Button btnPositive = dlg.getButton(Dialog.BUTTON_POSITIVE);
                             btnPositive.setTextSize(50);
