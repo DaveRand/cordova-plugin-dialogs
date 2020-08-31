@@ -525,7 +525,7 @@ public class Notification extends CordovaPlugin {
 //            return new Builder(cordova.getActivity(), AlertDialog.THEME_HOLO_LIGHT); // White background, turqouise Alert, black text, OK black and centered
 //            return new Builder(cordova.getActivity(), AlertDialog.THEME_TRADITIONAL); // Ugly. Baclk background white Alert and white text. Black OK text centered on gray background inside a white square button.
 //            return new Builder(cordova.getActivity(), 5); // Just like the default style.
-            return new Builder(cordova.getActivity(), 258);
+            return new Builder(cordova.getActivity(), 258); // Just like the default style.
 //            return new Builder(cordova.getActivity(), android.R.style.Theme_DeviceDefault_Light_Dialog_Alert);
 //            return new Builder(cordova.getActivity());
        } else {
