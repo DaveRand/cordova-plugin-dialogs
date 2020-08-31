@@ -517,7 +517,7 @@ public class Notification extends CordovaPlugin {
         int currentapiVersion = android.os.Build.VERSION.SDK_INT;
         if (currentapiVersion >= android.os.Build.VERSION_CODES.HONEYCOMB) {
 //            return new Builder(cordova.getActivity(), AlertDialog.THEME_DEVICE_DEFAULT_DARK); // R.style.Theme_DeviceDefault_Dialog_Alert
-            return new Builder(cordova.getActivity(), AlertDialog.Theme_Material_Light_Dialog_Alert);
+            return new Builder(cordova.getActivity(), android.R.style.Theme_Material_Light_Dialog_Alert);
 //            return new Builder(cordova.getActivity(), android.R.style.Theme_DeviceDefault_Light_Dialog_Alert);
 //            return new Builder(cordova.getActivity());
        } else {
